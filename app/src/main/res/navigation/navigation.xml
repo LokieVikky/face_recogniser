@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/faceRecognizerFragment">
+
+    <fragment
+        android:id="@+id/faceRecognizerFragment"
+        android:name="com.thesoftwarecompany.facerecognizer.FaceRecognizerFragment"
+        android:label="Face Recognizer">
+
+        <action
+            android:id="@+id/action_faceRecognizerFragment_to_userListFragment"
+            app:destination="@id/userListFragment" />
+        <action
+            android:id="@+id/action_faceRecognizerFragment_to_logsFragment"
+            app:destination="@id/logsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/faceRegisterFragment"
+        android:name="com.thesoftwarecompany.facerecognizer.FaceRecognizerFragment"
+        android:label="Register Face" />
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.thesoftwarecompany.facerecognizer.UserListFragment"
+        android:label="Employee List" >
+        <action
+            android:id="@+id/action_userListFragment_to_addUser"
+            app:destination="@id/addUser" />
+        <action
+            android:id="@+id/action_userListFragment_to_faceRegisterFragment"
+            app:destination="@id/faceRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUser"
+        android:name="com.thesoftwarecompany.facerecognizer.AddModifyUserFragment"
+        android:label="Add Employee" >
+        <action
+            android:id="@+id/action_addUser_to_faceRegisterFragment"
+            app:destination="@id/faceRegisterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logsFragment"
+        android:name="com.thesoftwarecompany.facerecognizer.LogsFragment"
+        android:label="Logs" />
+
+
+</navigation>

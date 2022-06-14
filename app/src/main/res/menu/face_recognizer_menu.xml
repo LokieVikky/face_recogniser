@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_view_users"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/view_users"
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_view_logs"
+        android:title="@string/view_logs"
+        android:icon="@drawable/ic_baseline_article_24"
+        app:showAsAction="ifRoom"/>
+
+</menu>

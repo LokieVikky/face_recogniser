@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FaceRecognizer</string>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">Face Recognition</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="register">Register</string>
+    <string name="add_user">ADD USER</string>
+    <string name="name">Name</string>
+    <string name="designation">Designation</string>
+    <string name="face_added">Face Added</string>
+    <string name="add_face">ADD FACE</string>
+    <string name="save">Save</string>
+    <string name="view_users">View Users</string>
+    <string name="view_logs">View Logs</string>
+    <string name="employee_name">Employee name</string>
+    <string name="employee_designation">Employee Designation</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="face_not_registered">Face not registered</string>
+    <string name="face_Added">Face Added</string>
+    <string name="face_registered">Face Registered</string>
+    <string name="face_not_registred">Face not registered</string>
+    <string name="click_here_to_register_face">Click here to Register Face</string>
+    <string name="log_time">Log Time</string>
+    <string name="employee_details">Employee Details</string>
+</resources>
